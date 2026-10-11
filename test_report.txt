@@ -1,0 +1,164 @@
+00:00 +0: loading /home/runner/work/formflow/formflow/test/widget_test.dart
+00:00 +0: /home/runner/work/formflow/formflow/test/widget_test.dart: sanity
+00:00 +1: /home/runner/work/formflow/formflow/test/domain/engine_test.dart: every exercise demonstration is counted by the engine squat: correct reps are clean
+00:00 +2: /home/runner/work/formflow/formflow/test/domain/engine_test.dart: every exercise demonstration is counted by the engine squat: shallow reps are flagged
+00:00 +3: /home/runner/work/formflow/formflow/test/domain/engine_test.dart: every exercise demonstration is counted by the engine lunge: correct reps are clean
+00:00 +4: /home/runner/work/formflow/formflow/test/domain/engine_test.dart: every exercise demonstration is counted by the engine lunge: shallow reps are flagged
+00:00 +5: /home/runner/work/formflow/formflow/test/domain/engine_test.dart: every exercise demonstration is counted by the engine glute_bridge: correct reps are clean
+00:00 +6: /home/runner/work/formflow/formflow/test/domain/engine_test.dart: every exercise demonstration is counted by the engine glute_bridge: shallow reps are flagged
+00:00 +7: /home/runner/work/formflow/formflow/test/domain/engine_test.dart: every exercise demonstration is counted by the engine calf_raise: correct reps are clean
+00:00 +8: /home/runner/work/formflow/formflow/test/domain/engine_test.dart: every exercise demonstration is counted by the engine calf_raise: shallow reps are flagged
+00:00 +9: /home/runner/work/formflow/formflow/test/domain/engine_test.dart: every exercise demonstration is counted by the engine deadlift: correct reps are clean
+00:00 +10: /home/runner/work/formflow/formflow/test/domain/engine_test.dart: every exercise demonstration is counted by the engine deadlift: shallow reps are flagged
+00:00 +11: /home/runner/work/formflow/formflow/test/domain/engine_test.dart: every exercise demonstration is counted by the engine bent_over_row: correct reps are clean
+00:00 +12: /home/runner/work/formflow/formflow/test/domain/engine_test.dart: every exercise demonstration is counted by the engine bent_over_row: shallow reps are flagged
+00:00 +13: /home/runner/work/formflow/formflow/test/domain/engine_test.dart: every exercise demonstration is counted by the engine pull_up: correct reps are clean
+00:00 +14: /home/runner/work/formflow/formflow/test/domain/engine_test.dart: every exercise demonstration is counted by the engine pull_up: shallow reps are flagged
+00:00 +15: /home/runner/work/formflow/formflow/test/domain/engine_test.dart: every exercise demonstration is counted by the engine good_morning: correct reps are clean
+00:00 +16: /home/runner/work/formflow/formflow/test/domain/engine_test.dart: every exercise demonstration is counted by the engine good_morning: shallow reps are flagged
+00:00 +17: /home/runner/work/formflow/formflow/test/domain/engine_test.dart: every exercise demonstration is counted by the engine push_up: correct reps are clean
+00:00 +18: /home/runner/work/formflow/formflow/test/domain/engine_test.dart: every exercise demonstration is counted by the engine push_up: shallow reps are flagged
+00:00 +19: /home/runner/work/formflow/formflow/test/domain/engine_test.dart: every exercise demonstration is counted by the engine wide_push_up: correct reps are clean
+00:00 +20: /home/runner/work/formflow/formflow/test/domain/engine_test.dart: every exercise demonstration is counted by the engine wide_push_up: shallow reps are flagged
+00:00 +21: /home/runner/work/formflow/formflow/test/domain/engine_test.dart: every exercise demonstration is counted by the engine diamond_push_up: correct reps are clean
+00:00 +22: /home/runner/work/formflow/formflow/test/domain/engine_test.dart: every exercise demonstration is counted by the engine diamond_push_up: shallow reps are flagged
+00:00 +23: /home/runner/work/formflow/formflow/test/domain/engine_test.dart: every exercise demonstration is counted by the engine bicep_curl: correct reps are clean
+00:00 +24: /home/runner/work/formflow/formflow/test/domain/engine_test.dart: every exercise demonstration is counted by the engine bicep_curl: shallow reps are flagged
+00:00 +25: /home/runner/work/formflow/formflow/test/domain/engine_test.dart: every exercise demonstration is counted by the engine hammer_curl: correct reps are clean
+00:00 +26: /home/runner/work/formflow/formflow/test/domain/engine_test.dart: every exercise demonstration is counted by the engine hammer_curl: shallow reps are flagged
+00:00 +27: /home/runner/work/formflow/formflow/test/domain/engine_test.dart: every exercise demonstration is counted by the engine overhead_triceps: correct reps are clean
+00:00 +28: /home/runner/work/formflow/formflow/test/domain/engine_test.dart: every exercise demonstration is counted by the engine overhead_triceps: shallow reps are flagged
+00:00 +29: /home/runner/work/formflow/formflow/test/domain/engine_test.dart: every exercise demonstration is counted by the engine bench_dip: correct reps are clean
+00:00 +30: /home/runner/work/formflow/formflow/test/domain/engine_test.dart: every exercise demonstration is counted by the engine bench_dip: shallow reps are flagged
+00:00 +31: /home/runner/work/formflow/formflow/test/domain/engine_test.dart: every exercise demonstration is counted by the engine shoulder_press: correct reps are clean
+00:00 +32: /home/runner/work/formflow/formflow/test/domain/engine_test.dart: every exercise demonstration is counted by the engine shoulder_press: shallow reps are flagged
+00:00 +33: /home/runner/work/formflow/formflow/test/domain/engine_test.dart: every exercise demonstration is counted by the engine lateral_raise: correct reps are clean
+00:00 +34: /home/runner/work/formflow/formflow/test/domain/engine_test.dart: every exercise demonstration is counted by the engine lateral_raise: shallow reps are flagged
+00:00 +35: /home/runner/work/formflow/formflow/test/domain/engine_test.dart: every exercise demonstration is counted by the engine sit_up: correct reps are clean
+00:00 +36: /home/runner/work/formflow/formflow/test/domain/engine_test.dart: every exercise demonstration is counted by the engine sit_up: shallow reps are flagged
+00:00 +37: /home/runner/work/formflow/formflow/test/domain/engine_test.dart: timed holds (FR-FA-07) plank: correct form accumulates seconds
+00:00 +38: /home/runner/work/formflow/formflow/test/domain/engine_test.dart: timed holds (FR-FA-07) plank: sagging hips stop the timer and raise a safety cue
+00:00 +39: /home/runner/work/formflow/formflow/test/domain/engine_test.dart: timed holds (FR-FA-07) wall sit: sitting too high stops the timer
+00:00 +40: /home/runner/work/formflow/formflow/test/domain/engine_test.dart: front-view squat with the left knee caving names the left knee (TC-21)
+00:00 +41: /home/runner/work/formflow/formflow/test/domain/engine_test.dart: person leaving the frame pauses and resumes (FR-PE-10, TC-32)
+00:00 +42: /home/runner/work/formflow/formflow/test/domain/engine_test.dart: low-confidence landmarks are ignored (FR-PE-05)
+00:00 +43: /home/runner/work/formflow/formflow/test/domain/engine_test.dart: random landmark fuzz never throws (TC-20)
+00:00 +44: /home/runner/work/formflow/formflow/test/domain/engine_test.dart: mannequin keeps feet on the floor for standing exercises (FR-DM-02)
+00:00 +45: /home/runner/work/formflow/formflow/test/domain/nutrition_test.dart: TC-29: man, 21, 70 kg, 175 cm, activity 1.55, Cutting BMR 1,694 kcal (Mifflin-St Jeor)
+00:00 +46: /home/runner/work/formflow/formflow/test/domain/nutrition_test.dart: TC-29: man, 21, 70 kg, 175 cm, activity 1.55, Cutting maintenance 2,625 kcal
+00:00 +47: /home/runner/work/formflow/formflow/test/domain/nutrition_test.dart: TC-29: man, 21, 70 kg, 175 cm, activity 1.55, Cutting cutting about 2,232 kcal
+00:00 +48: /home/runner/work/formflow/formflow/test/domain/nutrition_test.dart: TC-29: man, 21, 70 kg, 175 cm, activity 1.55, Cutting protein 154 g
+00:00 +49: /home/runner/work/formflow/formflow/test/domain/nutrition_test.dart: TC-29: man, 21, 70 kg, 175 cm, activity 1.55, Cutting fat 56 g
+00:00 +50: /home/runner/work/formflow/formflow/test/domain/nutrition_test.dart: TC-29: man, 21, 70 kg, 175 cm, activity 1.55, Cutting carbohydrate about 278 g
+00:00 +51: /home/runner/work/formflow/formflow/test/domain/nutrition_test.dart: TC-29: man, 21, 70 kg, 175 cm, activity 1.55, Cutting water 2.45 L
+00:00 +52: /home/runner/work/formflow/formflow/test/domain/nutrition_test.dart: women use -161 in the BMR formula
+00:00 +53: /home/runner/work/formflow/formflow/test/domain/nutrition_test.dart: bulking is 10% above maintenance with 2.0 g/kg protein
+00:00 +54: /home/runner/work/formflow/formflow/test/domain/nutrition_test.dart: calorie floor is applied (FR-NU-04)
+00:00 +55: /home/runner/work/formflow/formflow/test/domain/nutrition_test.dart: no deficit for a low BMI (FR-NU-04)
+00:00 +56: /home/runner/work/formflow/formflow/test/domain/nutrition_test.dart: meal plan: 5 meals normal/cutting, 6 bulking (FR-NU-05)
+00:00 +57: /home/runner/work/formflow/formflow/test/domain/nutrition_test.dart: pre-workout meal is 90 minutes before the workout
+00:00 +58: /home/runner/work/formflow/formflow/test/domain/nutrition_test.dart: training style per goal (FR-NU-06)
+00:00 +59: /home/runner/work/formflow/formflow/test/domain/nutrition_test.dart: vitamins are sex- and age-specific (FR-VT-01)
+00:00 +60: /home/runner/work/formflow/formflow/test/domain/nutrition_test.dart: daily timeline offsets (FR-TP-01)
+00:01 +61: /home/runner/work/formflow/formflow/test/domain/profile_scan_test.dart: Validators (FR-AU-03, NFR-SC-04) email
+00:01 +62: /home/runner/work/formflow/formflow/test/domain/profile_scan_test.dart: Validators (FR-AU-03, NFR-SC-04) password must be 6+ characters
+00:01 +63: /home/runner/work/formflow/formflow/test/domain/profile_scan_test.dart: Validators (FR-AU-03, NFR-SC-04) name required
+00:01 +64: /home/runner/work/formflow/formflow/test/domain/profile_scan_test.dart: Validators (FR-AU-03, NFR-SC-04) age gate 18+ (FR-AU-10)
+00:01 +65: /home/runner/work/formflow/formflow/test/domain/profile_scan_test.dart: Validators (FR-AU-03, NFR-SC-04) profile JSON keeps values and fills missing ones with defaults (FR-PR-02)
+00:01 +66: /home/runner/work/formflow/formflow/test/domain/profile_scan_test.dart: measurements side view vs front view
+00:01 +67: /home/runner/work/formflow/formflow/test/domain/profile_scan_test.dart: measurements knee angle from a synthetic squat
+00:01 +68: /home/runner/work/formflow/formflow/test/domain/profile_scan_test.dart: measurements hipOffset is positive when hips sag
+00:01 +69: /home/runner/work/formflow/formflow/test/domain/profile_scan_test.dart: measurements metric side policy: auto uses the more visible side
+00:01 +70: /home/runner/work/formflow/formflow/test/domain/profile_scan_test.dart: measurements framing checks for camera setup (FR-PE-13)
+00:01 +71: /home/runner/work/formflow/formflow/test/domain/profile_scan_test.dart: Body Profile scan (FR-CB) a symmetric, complete scan scores high quality
+00:01 +72: /home/runner/work/formflow/formflow/test/domain/profile_scan_test.dart: Body Profile scan (FR-CB) missing poses lower the quality and explain what to fix (FR-CB-04)
+00:01 +73: /home/runner/work/formflow/formflow/test/domain/profile_scan_test.dart: Body Profile scan (FR-CB) no capture gives zero quality
+00:01 +74: /home/runner/work/formflow/formflow/test/domain/profile_scan_test.dart: Body Profile scan (FR-CB) pre-checks give one instruction (FR-CB-02)
+00:01 +75: /home/runner/work/formflow/formflow/test/domain/assets_test.dart: every exercise has a 3D animation and a thumbnail
+00:01 +76: /home/runner/work/formflow/formflow/test/domain/assets_test.dart: the body map covers all 14 muscles
+00:01 +77: /home/runner/work/formflow/formflow/test/domain/assets_test.dart: media stays within the PRD budget (under 15 MB)
+00:01 +78: /home/runner/work/formflow/formflow/test/domain/rep_counter_test.dart: RepCounter four-phase state machine (FR-FA-03) counts one deep rep
+00:01 +79: /home/runner/work/formflow/formflow/test/domain/rep_counter_test.dart: RepCounter four-phase state machine (FR-FA-03) counts three reps in a row
+00:01 +80: /home/runner/work/formflow/formflow/test/domain/rep_counter_test.dart: RepCounter four-phase state machine (FR-FA-03) shallow rep is an attempt without depth
+00:01 +81: /home/runner/work/formflow/formflow/test/domain/rep_counter_test.dart: RepCounter four-phase state machine (FR-FA-03) small wobble is ignored as noise
+00:01 +82: /home/runner/work/formflow/formflow/test/domain/rep_counter_test.dart: RepCounter four-phase state machine (FR-FA-03) does not count before reaching the start position (idle)
+00:01 +83: /home/runner/work/formflow/formflow/test/domain/rep_counter_test.dart: RepCounter four-phase state machine (FR-FA-03) too-fast movement (< 0.6 s) is not counted
+00:01 +84: /home/runner/work/formflow/formflow/test/domain/rep_counter_test.dart: RepCounter four-phase state machine (FR-FA-03) jitter around the bottom does not double count (hysteresis)
+00:01 +85: /home/runner/work/formflow/formflow/test/domain/rep_counter_test.dart: RepCounter four-phase state machine (FR-FA-03) works for "up" exercises (lateral raise)
+00:01 +86: /home/runner/work/formflow/formflow/test/domain/rep_counter_test.dart: RepCounter four-phase state machine (FR-FA-03) progress is 0 at the top and 1 at depth
+00:01 +87: /home/runner/work/formflow/formflow/test/domain/geometry_test.dart: angleAt (FR-FA-01) right angle is 90 degrees
+00:01 +88: /home/runner/work/formflow/formflow/test/domain/geometry_test.dart: angleAt (FR-FA-01) straight line is 180 degrees
+00:01 +89: /home/runner/work/formflow/formflow/test/domain/geometry_test.dart: angleAt (FR-FA-01) 45 degrees
+00:01 +90: /home/runner/work/formflow/formflow/test/domain/geometry_test.dart: angleAt (FR-FA-01) degenerate input returns null
+00:01 +91: /home/runner/work/formflow/formflow/test/domain/geometry_test.dart: angleAt (FR-FA-01) angle is symmetric in a and c
+00:01 +92: /home/runner/work/formflow/formflow/test/domain/geometry_test.dart: angleFromVertical: up is 0, horizontal is 90
+00:01 +93: /home/runner/work/formflow/formflow/test/domain/geometry_test.dart: Vec2.fromDirection uses 0 = up, 90 = right
+00:01 +94: /home/runner/work/formflow/formflow/test/domain/geometry_test.dart: smoothing (FR-PE-06) EMA converges to a constant
+00:01 +95: /home/runner/work/formflow/formflow/test/domain/geometry_test.dart: smoothing (FR-PE-06) One Euro filter reduces jitter on a still signal
+00:01 +96: /home/runner/work/formflow/formflow/test/domain/geometry_test.dart: smoothing (FR-PE-06) One Euro filter follows a fast move
+00:02 +97: /home/runner/work/formflow/formflow/test/domain/routine_test.dart: catalog (FR-EX-01, FR-EX-02, FR-EX-05) has the 20 exercises from the PRD
+00:02 +98: /home/runner/work/formflow/formflow/test/domain/routine_test.dart: catalog (FR-EX-01, FR-EX-02, FR-EX-05) every exercise has valid metadata
+00:02 +99: /home/runner/work/formflow/formflow/test/domain/routine_test.dart: catalog (FR-EX-01, FR-EX-02, FR-EX-05) plank and wall sit are timed
+00:02 +100: /home/runner/work/formflow/formflow/test/domain/routine_test.dart: catalog (FR-EX-01, FR-EX-02, FR-EX-05) system cues exist (PRD 8.8)
+00:02 +101: /home/runner/work/formflow/formflow/test/domain/routine_test.dart: routines (FR-RT) presets only reference existing exercises
+00:02 +102: /home/runner/work/formflow/formflow/test/domain/routine_test.dart: routines (FR-RT) Full Body preset matches the PRD
+00:02 +103: /home/runner/work/formflow/formflow/test/domain/routine_test.dart: routines (FR-RT) weekly schedule references presets (FR-TP-02)
+00:02 +104: /home/runner/work/formflow/formflow/test/domain/routine_test.dart: routines (FR-RT) muscle distribution sums to 100% (FR-RT-07)
+00:02 +105: /home/runner/work/formflow/formflow/test/domain/routine_test.dart: routines (FR-RT) estimated time grows with sets
+00:02 +106: /home/runner/work/formflow/formflow/test/domain/routine_test.dart: routines (FR-RT) routine JSON round trip
+00:02 +107: /home/runner/work/formflow/formflow/test/domain/routine_test.dart: routines (FR-RT) Routine Creator respects equipment, level and time (FR-RT-05)
+00:02 +108: /home/runner/work/formflow/formflow/test/domain/routine_test.dart: guided workout (FR-GW) sets, rests and next exercise
+00:02 +109: /home/runner/work/formflow/formflow/test/domain/routine_test.dart: guided workout (FR-GW) state survives an interruption (FR-GW-09, TC-24)
+00:02 +110: /home/runner/work/formflow/formflow/test/domain/routine_test.dart: guided workout (FR-GW) skip and reorder upcoming exercises (FR-GW-10)
+00:02 +111: /home/runner/work/formflow/formflow/test/domain/routine_test.dart: guided workout (FR-GW) a corrupt saved state is ignored
+00:02 +112: /home/runner/work/formflow/formflow/test/domain/store_test.dart: everything round-trips through the local store (FR-CL-01)
+00:02 +113: /home/runner/work/formflow/formflow/test/domain/store_test.dart: corrupt stored values are ignored, not fatal (NFR-RL-02)
+00:02 +114: /home/runner/work/formflow/formflow/test/domain/store_test.dart: clearAll deletes all app data (FR-AU-09)
+00:02 +115: /home/runner/work/formflow/formflow/test/domain/store_test.dart: performance override beats the benchmark
+00:02 +116: /home/runner/work/formflow/formflow/test/domain/rules_feedback_test.dart: CueBook (FR-VF-02) names the side for bilateral cues
+00:02 +117: /home/runner/work/formflow/formflow/test/domain/rules_feedback_test.dart: CueBook (FR-VF-02) uses the neutral wording when the side is unknown
+00:02 +118: /home/runner/work/formflow/formflow/test/domain/rules_feedback_test.dart: CueBook (FR-VF-02) clip path follows cue id and side
+00:02 +119: /home/runner/work/formflow/formflow/test/domain/rules_feedback_test.dart: Scoring (FR-FA-06) severity weights
+00:02 +120: /home/runner/work/formflow/formflow/test/domain/rules_feedback_test.dart: Scoring (FR-FA-06) never below zero
+00:02 +121: /home/runner/work/formflow/formflow/test/domain/rules_feedback_test.dart: Scoring (FR-FA-06) bands
+00:03 +122: /home/runner/work/formflow/formflow/test/domain/rules_feedback_test.dart: Conditions gt / lt / bool
+00:03 +123: /home/runner/work/formflow/formflow/test/domain/rules_feedback_test.dart: RuleEngine persistence (FR-FA-04) back lean is reported only after 4 consecutive frames
+00:03 +124: /home/runner/work/formflow/formflow/test/domain/rules_feedback_test.dart: RuleEngine persistence (FR-FA-04) front-only rules are skipped in side view (FR-FA-10)
+00:03 +125: /home/runner/work/formflow/formflow/test/domain/rules_feedback_test.dart: RuleEngine persistence (FR-FA-04) rep-end rule fires when depth not reached
+00:03 +126: /home/runner/work/formflow/formflow/test/domain/rules_feedback_test.dart: FeedbackManager at most one spoken correction every 3 s (FR-VF-03)
+00:03 +127: /home/runner/work/formflow/formflow/test/domain/rules_feedback_test.dart: FeedbackManager same cue at least 4 s apart
+00:03 +128: /home/runner/work/formflow/formflow/test/domain/rules_feedback_test.dart: FeedbackManager safety beats form beats depth
+00:03 +129: /home/runner/work/formflow/formflow/test/domain/rules_feedback_test.dart: FeedbackManager depth cues are not spoken mid-rep (FR-VF-05)
+00:03 +130: /home/runner/work/formflow/formflow/test/domain/rules_feedback_test.dart: FeedbackManager correction loop confirms a fixed error (FR-VF-04, TC-21)
+00:03 +131: /home/runner/work/formflow/formflow/test/domain/rules_feedback_test.dart: FeedbackManager repeats once, then visual and haptic only (FR-VF-04, TC-22)
+00:03 +132: /home/runner/work/formflow/formflow/test/domain/rules_feedback_test.dart: FeedbackManager rep numbers every 5th clean rep by default (FR-VF-06)
+00:03 +133: /home/runner/work/formflow/formflow/test/domain/rules_feedback_test.dart: FeedbackManager muted voice produces no speech
+00:03 +134: /home/runner/work/formflow/formflow/test/domain/progress_test.dart: history persistence (FR-PG-01, NFR-RL-02) session JSON round trip keeps per-rep records
+00:03 +135: /home/runner/work/formflow/formflow/test/domain/progress_test.dart: history persistence (FR-PG-01, NFR-RL-02) malformed records are ignored, not fatal
+00:03 +136: /home/runner/work/formflow/formflow/test/domain/progress_test.dart: calendar and streak (FR-PG-02) week starts on Sunday
+00:03 +137: /home/runner/work/formflow/formflow/test/domain/progress_test.dart: calendar and streak (FR-PG-02) completed weekdays and weekly count
+00:03 +138: /home/runner/work/formflow/formflow/test/domain/progress_test.dart: calendar and streak (FR-PG-02) streak counts consecutive weeks that met the target
+00:03 +139: /home/runner/work/formflow/formflow/test/domain/progress_test.dart: recovery estimate (FR-PG-03) worked muscles drop to about 25% right after a heavy session
+00:03 +140: /home/runner/work/formflow/formflow/test/domain/progress_test.dart: recovery estimate (FR-PG-03) fully recovered after 48 hours
+00:03 +141: /home/runner/work/formflow/formflow/test/domain/progress_test.dart: recovery estimate (FR-PG-03) recovers linearly in between
+00:03 +142: /home/runner/work/formflow/formflow/test/domain/progress_test.dart: recovery estimate (FR-PG-03) Fresh Muscle Workout avoids fatigued muscles
+00:03 +143: /home/runner/work/formflow/formflow/test/domain/progress_test.dart: Coach (FR-CO-01..03) summarises weekly progress and the top issue with its side
+00:03 +144: /home/runner/work/formflow/formflow/test/domain/progress_test.dart: Coach (FR-CO-01..03) never gives medical advice
+00:03 +145: /home/runner/work/formflow/formflow/test/domain/progress_test.dart: Accuracy Test Lab (FR-TL) confusion matrix, precision, recall and F1
+00:03 +146: /home/runner/work/formflow/formflow/test/domain/progress_test.dart: Accuracy Test Lab (FR-TL) CSV export columns (FR-TL-03)
+00:03 +147: /home/runner/work/formflow/formflow/test/domain/progress_test.dart: Accuracy Test Lab (FR-TL) rep-count error
+00:03 +148: /home/runner/work/formflow/formflow/test/domain/progress_test.dart: Accuracy Test Lab (FR-TL) empty lab is all zeros
+00:03 +149: /home/runner/work/formflow/formflow/test/domain/progress_test.dart: sample data is deterministic and valid
+00:03 +150: /home/runner/work/formflow/formflow/test/domain/progress_test.dart: device tier from benchmark (PRD 9.1)
+00:03 +151: /home/runner/work/formflow/formflow/test/widgets/widgets_test.dart: LevelBars draws five bars and an accessible label
+00:04 +152: /home/runner/work/formflow/formflow/test/widgets/widgets_test.dart: StatusBadge shows Beta or Validated
+00:04 +153: /home/runner/work/formflow/formflow/test/widgets/widgets_test.dart: every exercise thumbnail paints without errors
+00:04 +154: /home/runner/work/formflow/formflow/test/widgets/widgets_test.dart: 3D demonstration shows the pre-rendered animation
+00:04 +155: /home/runner/work/formflow/formflow/test/widgets/widgets_test.dart: demonstration animates and respects reduced motion (FR-DM-07)
+00:04 +156: /home/runner/work/formflow/formflow/test/widgets/widgets_test.dart: realistic muscle map loads, maps taps and renders chips
+00:04 +157: /home/runner/work/formflow/formflow/test/widgets/widgets_test.dart: form score chart pairs colour with icons (NFR accessibility)
+00:07 +158: /home/runner/work/formflow/formflow/test/widgets/app_test.dart: signed-in user lands on the Workout tab and can visit every tab
+00:09 +159: /home/runner/work/formflow/formflow/test/widgets/app_test.dart: nutrition shows the TC-29 calorie target for cutting
+00:09 +160: /home/runner/work/formflow/formflow/test/widgets/app_test.dart: declining the age gate blocks onboarding (TC-28)
+00:09 +161: /home/runner/work/formflow/formflow/test/widgets/app_test.dart: sign-up rejects an invalid email with a message (FR-AU-03)
+00:10 +162: All tests passed!
