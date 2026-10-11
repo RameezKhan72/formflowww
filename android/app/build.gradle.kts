@@ -37,6 +37,9 @@ android {
             // TODO: Add your own signing config for the release build.
             // Signing with the debug keys for now, so `flutter run --release` works.
             signingConfig = signingConfigs.getByName("debug")
+            // R8 strips Room/WorkManager classes and crashes the app on launch.
+            isMinifyEnabled = false
+            isShrinkResources = false
         }
     }
 }
