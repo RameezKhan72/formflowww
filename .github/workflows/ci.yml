@@ -1,0 +1,133 @@
+name: CI
+
+on:
+  push:
+    branches: [smooth-3d]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ci-smooth
+  cancel-in-progress: true
+
+jobs:
+  test-and-build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+      - name: Flutter version
+        run: flutter --version | tee flutter_version.txt
+      - name: Generate Android platform folder if missing
+        run: |
+          if [ ! -f android/app/src/main/AndroidManifest.xml ]; then
+            flutter create --project-name formflow --org com.formflow --platforms android .
+          fi
+          python3 tool/patch_android.py
+      - run: flutter pub get
+      - name: Analyze
+        run: flutter analyze --no-fatal-infos 2>&1 | tee analyze_report.txt
+      - name: Unit and widget tests
+        run: |
+          set -o pipefail
+          flutter test --reporter expanded 2>&1 | tee test_report.txt
+      - name: Test coverage summary
+        if: always()
+        run: |
+          flutter test --coverage > /dev/null 2>&1 || true
+          python3 - <<'PY' | tee coverage_summary.txt
+          import re, collections
+          hit = collections.Counter(); tot = collections.Counter(); f = None
+          try:
+              for line in open('coverage/lcov.info'):
+                  if line.startswith('SF:'): f = line[3:].strip()
+                  elif line.startswith('DA:'):
+                      n = int(line.strip().split(',')[1]); tot[f] += 1; hit[f] += (n > 0)
+          except FileNotFoundError:
+              print('no coverage'); raise SystemExit
+          dom = [k for k in tot if '/domain/' in k]
+          print('domain line coverage: %.1f%%' % (100 * sum(hit[k] for k in dom) / max(1, sum(tot[k] for k in dom))))
+          print('overall line coverage: %.1f%%' % (100 * sum(hit.values()) / max(1, sum(tot.values()))))
+          for k in sorted(tot): print('%6.1f%%  %s' % (100 * hit[k] / tot[k], k))
+          PY
+      - name: Build release APKs
+        run: flutter build apk --release --split-per-abi 2>&1 | tail -40
+      - name: Package source with Android folder
+        if: always()
+        run: |
+          mkdir -p out
+          zip -qr out/formflow_source.zip . -x 'build/*' '.dart_tool/*' '.git/*' 'out/*' 'coverage/*' 'android/.gradle/*' 'android/app/.cxx/*'
+          cp build/app/outputs/flutter-apk/*.apk out/ 2>/dev/null || true
+          cp analyze_report.txt test_report.txt coverage_summary.txt flutter_version.txt out/ 2>/dev/null || true
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: build-and-reports
+          path: out/
+      - name: Publish results to the ci-build-smooth branch
+        if: always()
+        run: bash tool/publish_branch.sh out ci-build-smooth
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  screenshots:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+      - name: Generate Android platform folder if missing
+        run: |
+          if [ ! -f android/app/src/main/AndroidManifest.xml ]; then
+            flutter create --project-name formflow --org com.formflow --platforms android .
+          fi
+          python3 tool/patch_android.py
+      - run: flutter pub get
+      - name: Enable KVM
+        run: |
+          echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
+          sudo udevadm control --reload-rules
+          sudo udevadm trigger --name-match=kvm
+      - name: Run screenshot tour on an Android emulator
+        uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: 34
+          arch: x86_64
+          target: google_apis
+          profile: pixel_6
+          disable-animations: false
+          emulator-options: -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back none -camera-front none
+          script: flutter drive --driver=test_driver/integration_test.dart --target=integration_test/screenshots_test.dart -d emulator-5554 2>&1 | tee drive_log.txt
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: screenshots
+          path: |
+            screenshots_out/
+            drive_log.txt
+      - name: Publish screenshots to the ci-screens-smooth branch
+        if: always()
+        run: |
+          mkdir -p shots_pub
+          cp -r screenshots_out/* shots_pub/ 2>/dev/null || true
+          cp drive_log.txt shots_pub/ 2>/dev/null || true
+          bash tool/publish_branch.sh shots_pub ci-screens-smooth
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
